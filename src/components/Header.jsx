@@ -40,15 +40,15 @@ const Header = () => {
             className={`hidden lg:flex transition-transform duration-200 ease-in-out ${
               activeDropdown === id ? "transform rotate-180" : ""
             }`}
-            src="./src/assets/icon-arrow-light.svg"
+            src="../../public/assets/icon-arrow-light.svg"
             alt="arrow-light"
           />
           <img
             className={`flex lg:hidden transition-transform duration-200 ease-in-out ${
               activeDropdown === id ? "transform rotate-180" : ""
             }`}
-            src="./src/assets/icon-arrow-dark.svg"
-            alt="arrow-light"
+            src="../../public/assets/icon-arrow-dark.svg"
+            alt="arrow-dark"
           />
         </div>
       </div>
@@ -79,7 +79,7 @@ const Header = () => {
     <header className="flex justify-center z-30 w-screen h-[70px] px-[24px] text-white font-[500] font-ubuntu absolute top-[50px] ">
       <div className="flex relative justify-between items-center w-[90%] max-w-[1105px]">
         <a href="/">
-          <img src="./src/assets/logo.svg" alt="blogr logo" />
+          <img src="../../public/assets/logo.svg" alt="blogr logo" />
         </a>
         <button onClick={() => toggleMobileMenu()}>
           <div>
@@ -87,8 +87,8 @@ const Header = () => {
               className="flex lg:hidden"
               src={
                 isOpen
-                  ? "./src/assets/icon-close.svg"
-                  : "./src/assets/icon-hamburger.svg"
+                  ? "../../public/assets/icon-close.svg"
+                  : "../../public/assets/icon-hamburger.svg"
               }
               alt="mobile menu"
             />

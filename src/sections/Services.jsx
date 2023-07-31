@@ -4,12 +4,12 @@ const Services = () => {
       <div className="flex justify-center items-center lg:absolute -left-[9%] lg:w-[60%]">
         <img
           className="hidden md:flex"
-          src="./src/assets/illustration-laptop-desktop.svg"
+          src="../../public/assets/illustration-laptop-desktop.svg"
           alt=""
         />
         <img
           className="flex md:hidden"
-          src="./src/assets/illustration-laptop-mobile.svg"
+          src="../../public/assets/illustration-laptop-mobile.svg"
           alt=""
         />
       </div>

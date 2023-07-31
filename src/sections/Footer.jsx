@@ -18,7 +18,7 @@ const Footer = () => {
     <footer className="py-[70px] bg-footerBackground text-footerText rounded-tr-[100px]">
       <div className="w-[90%] max-w-[1100px] flex flex-col md:gap-8 md:flex-row text-center md:text-left md:justify-around md:grid-cols-4 mx-auto">
         <div className="flex mb-[72px] md:mb-0 md:items-start md:justify-start justify-center">
-          <img className="" src="./src/assets/logo.svg" alt="logo" />
+          <img className="" src="../../public/assets/logo.svg" alt="logo" />
         </div>
         {links}
       </div>

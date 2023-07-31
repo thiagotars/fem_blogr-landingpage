@@ -7,12 +7,12 @@ const Introducing = () => {
 
       <div className="flex justify-end mt-8 lg:mt-0 items-center lg:absolute lg:-right-[10%] lg:w-[60%]">
         <img
-          src="./src/assets/illustration-editor-mobile.svg"
+          src="../../public/assets/illustration-editor-mobile.svg"
           alt=""
           className="md:hidden flex"
         />
         <img
-          src="./src/assets/illustration-editor-desktop.svg"
+          src="../../public/assets/illustration-editor-desktop.svg"
           alt=""
           className="md:flex hidden"
         />
