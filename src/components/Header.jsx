@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import { linksData } from "../data/data.js";
 import Buttons from "./Buttons.jsx";
+import logo from "../assets/logo.svg";
+import arrowLight from "../assets/icon-arrow-light.svg";
+import arrowDark from "../assets/icon-arrow-dark.svg";
+import iconClose from "../assets/icon-close.svg";
+import iconHamburger from "../assets/icon-hamburger.svg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,14 +45,14 @@ const Header = () => {
             className={`hidden lg:flex transition-transform duration-200 ease-in-out ${
               activeDropdown === id ? "transform rotate-180" : ""
             }`}
-            src="../../public/assets/icon-arrow-light.svg"
+            src={arrowLight}
             alt="arrow-light"
           />
           <img
             className={`flex lg:hidden transition-transform duration-200 ease-in-out ${
               activeDropdown === id ? "transform rotate-180" : ""
             }`}
-            src="../../public/assets/icon-arrow-dark.svg"
+            src={arrowDark}
             alt="arrow-dark"
           />
         </div>
@@ -79,17 +84,13 @@ const Header = () => {
     <header className="flex justify-center z-30 w-screen h-[70px] px-[24px] text-white font-[500] font-ubuntu absolute top-[50px] ">
       <div className="flex relative justify-between items-center w-[90%] max-w-[1105px]">
         <a href="/">
-          <img src="../../public/assets/logo.svg" alt="blogr logo" />
+          <img src={logo} alt="blogr logo" />
         </a>
         <button onClick={() => toggleMobileMenu()}>
           <div>
             <img
               className="flex lg:hidden"
-              src={
-                isOpen
-                  ? "../../public/assets/icon-close.svg"
-                  : "../../public/assets/icon-hamburger.svg"
-              }
+              src={isOpen ? { iconClose } : { iconHamburger }}
               alt="mobile menu"
             />
           </div>

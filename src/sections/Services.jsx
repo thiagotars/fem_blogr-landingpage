@@ -1,16 +1,19 @@
+import laptopDesktop from "../assets/illustration-laptop-desktop.svg";
+import laptopMobile from "../assets/illustration-laptop-mobile.svg";
+
 const Services = () => {
   return (
     <section className="flex flex-col lg:flex-row relative py-[80px] lg:py-0 px-6 lg:px-0 lg:min-h-[1020px] items-center font-overpass">
       <div className="flex justify-center items-center lg:absolute -left-[9%] lg:w-[60%]">
         <img
           className="hidden md:flex"
-          src="../../public/assets/illustration-laptop-desktop.svg"
-          alt=""
+          src={laptopDesktop}
+          alt="laptop-illustration"
         />
         <img
           className="flex md:hidden"
-          src="../../public/assets/illustration-laptop-mobile.svg"
-          alt=""
+          src={laptopMobile}
+          alt="laptop-illustration"
         />
       </div>
       <div

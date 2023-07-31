@@ -1,4 +1,5 @@
-// import Header from "../components/Header";
+import introDesktop from "../assets/bg-pattern-intro-desktop.svg";
+import introMobile from "../assets/bg-pattern-intro-mobile.svg";
 
 const Hero = () => {
   return (
@@ -6,12 +7,12 @@ const Hero = () => {
       {/* Background image */}
       <img
         className="hidden absolute left-[25%] scale-[2] md:flex"
-        src="../../public/assets/bg-pattern-intro-desktop.svg"
+        src={introDesktop}
         alt="intro-image-desktop"
       />
       <img
         className="absolute scale-[4] md:hidden"
-        src="../../public/assets/bg-pattern-intro-mobile.svg"
+        src={introMobile}
         alt="intro-image-mobile"
       />
 

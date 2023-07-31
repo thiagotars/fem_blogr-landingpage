@@ -1,19 +1,22 @@
+import backgroundCircles from "../assets/bg-pattern-circles.svg";
+import phoneIllustration from "../assets/illustration-phones.svg";
+
 const Features = () => {
   return (
     <section className="relative h-[625px] lg:h-[400px] xs:mt-[200px] mt-24 lg:mt-0">
       <div className="z-[-10] overflow-hidden w-screen h-full absolute bg-gradient-to-r from-gradientDarkFeatures to-gradientLightFeatures rounded-tr-[100px] rounded-bl-[100px]">
         <img
           className="absolute -top-[200px] md:-top-[512px] lg:-left-[215px]"
-          src="../../public/assets/bg-pattern-circles.svg"
-          alt=""
+          src={backgroundCircles}
+          alt="background-circles"
         />
       </div>
       <div className="flex flex-col lg:flex-row w-screen lg:px-[100px] 2xl:px-[123px] h-full">
         <div className="lg:w-[50%] h-[50%] lg:h-full relative">
           <img
             className="flex absolute left-1/2 transform -translate-x-1/2 -top-[50%] sm:-top-[70%] lg:-top-[25%] "
-            src="../../public/assets/illustration-phones.svg"
-            alt=""
+            src={phoneIllustration}
+            alt="phones-illustration"
           />
         </div>
         <div className="px-6 md:px-10 lg:pl-4 lg:pr-0 w-full lg:max-w-[680px] font-overpass text-center lg:text-left text-white mt-0 sm:mt-10 md:mt-24 lg:mt-[116px] lg:w-[50%]">

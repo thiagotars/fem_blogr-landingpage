@@ -1,3 +1,6 @@
+import editorMobile from "../assets/illustration-editor-mobile.svg";
+import editorDesktop from "../assets/illustration-editor-desktop.svg";
+
 const Introducing = () => {
   return (
     <section className="pt-[120px] pb-[70px] px-6 lg:px-0 lg:py-0 flex flex-col lg:flex-row relative min-h-[1020px] items-center font-overpass">
@@ -7,13 +10,13 @@ const Introducing = () => {
 
       <div className="flex justify-end mt-8 lg:mt-0 items-center lg:absolute lg:-right-[10%] lg:w-[60%]">
         <img
-          src="../../public/assets/illustration-editor-mobile.svg"
-          alt=""
+          src={editorMobile}
+          alt="editor-illustration"
           className="md:hidden flex"
         />
         <img
-          src="../../public/assets/illustration-editor-desktop.svg"
-          alt=""
+          src={editorDesktop}
+          alt="editor-illustration"
           className="md:flex hidden"
         />
       </div>
