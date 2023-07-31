@@ -4,7 +4,7 @@ const Features = () => {
       <div className="z-[-10] overflow-hidden w-screen h-full absolute bg-gradient-to-r from-gradientDarkFeatures to-gradientLightFeatures rounded-tr-[100px] rounded-bl-[100px]">
         <img
           className="absolute -top-[200px] md:-top-[512px] lg:-left-[215px]"
-          src="src/assets/bg-pattern-circles.svg"
+          src="./src/assets/bg-pattern-circles.svg"
           alt=""
         />
       </div>
@@ -12,7 +12,7 @@ const Features = () => {
         <div className="lg:w-[50%] h-[50%] lg:h-full relative">
           <img
             className="flex absolute left-1/2 transform -translate-x-1/2 -top-[50%] sm:-top-[70%] lg:-top-[25%] "
-            src="src/assets/illustration-phones.svg"
+            src="./src/assets/illustration-phones.svg"
             alt=""
           />
         </div>

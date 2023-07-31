@@ -6,12 +6,12 @@ const Hero = () => {
       {/* Background image */}
       <img
         className="hidden absolute left-[25%] scale-[2] md:flex"
-        src="src/assets/bg-pattern-intro-desktop.svg"
+        src="./src/assets/bg-pattern-intro-desktop.svg"
         alt="intro-image-desktop"
       />
       <img
         className="absolute scale-[4] md:hidden"
-        src="src/assets/bg-pattern-intro-mobile.svg"
+        src="./src/assets/bg-pattern-intro-mobile.svg"
         alt="intro-image-mobile"
       />
 
