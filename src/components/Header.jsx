@@ -87,13 +87,11 @@ const Header = () => {
           <img src={logo} alt="blogr logo" />
         </a>
         <button onClick={() => toggleMobileMenu()}>
-          <div>
-            <img
-              className="flex lg:hidden"
-              src={isOpen ? iconClose : iconHamburger}
-              alt="mobile menu"
-            />
-          </div>
+          <img
+            className="flex lg:hidden"
+            src={isOpen ? iconClose : iconHamburger}
+            alt="mobile menu"
+          />
         </button>
 
         {isOpen ? (

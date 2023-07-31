@@ -21,7 +21,7 @@ const Introducing = () => {
         />
       </div>
 
-      <div className="flex flex-col mt-8 lg:mt-0 lg:pl-[160px] w-[90%] lg:w-[50%] text-center lg:text-left">
+      <div className="flex flex-col mt-8 lg:mt-0 lg:pl-[160px] lg:pr-14 w-[90%] lg:w-[50%] text-center lg:text-left">
         <div className="flex flex-col mt-6 lg:max-w-[600px] lg:mt-0">
           <h2 className="text-[24px] xl:text-[29.5px] text-headings font-semibold">
             Introducing an extensible editor
