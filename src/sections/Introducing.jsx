@@ -21,14 +21,8 @@ const Introducing = () => {
         />
       </div>
 
-      <div
-        id="text-block"
-        className="flex flex-col mt-8 lg:mt-0 lg:pl-[160px] w-[90%] lg:w-[50%] text-center lg:text-left"
-      >
-        <div
-          id="block-1"
-          className="flex flex-col mt-6 lg:max-w-[600px] lg:mt-0"
-        >
+      <div className="flex flex-col mt-8 lg:mt-0 lg:pl-[160px] w-[90%] lg:w-[50%] text-center lg:text-left">
+        <div className="flex flex-col mt-6 lg:max-w-[600px] lg:mt-0">
           <h2 className="text-[24px] xl:text-[29.5px] text-headings font-semibold">
             Introducing an extensible editor
           </h2>
@@ -41,10 +35,7 @@ const Introducing = () => {
             blog.
           </p>
         </div>
-        <div
-          className="lg:mt-[64px] mt-[34px] xl:mt-[80px] lg:max-w-[600px]"
-          id="block-2"
-        >
+        <div className="lg:mt-[64px] mt-[34px] xl:mt-[80px] lg:max-w-[600px]">
           <h2 className="text-[24px] xl:text-[29.5px] text-headings font-semibold">
             Robust content management
           </h2>

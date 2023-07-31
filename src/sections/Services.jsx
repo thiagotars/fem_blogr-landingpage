@@ -16,11 +16,8 @@ const Services = () => {
           alt="laptop-illustration"
         />
       </div>
-      <div
-        id="text-block"
-        className="flex flex-col max-w-[600px] items-center lg:items-start lg:absolute lg:left-[50%] mt-[36px] lg:mt-0 lg:mr-6 lg:pl-10 text-center lg:text-left w-[80%] lg:w-1/2"
-      >
-        <div id="block-1" className="flex flex-col mt-6 lg:mt-0">
+      <div className="flex flex-col max-w-[600px] items-center lg:items-start lg:absolute lg:left-[50%] mt-[36px] lg:mt-0 lg:mr-6 lg:pl-10 text-center lg:text-left w-[80%] lg:w-1/2">
+        <div className="flex flex-col mt-6 lg:mt-0">
           <h2 className="text-[24px] lg:text-[29.5px] text-headings font-semibold">
             Free, open, simple
           </h2>
@@ -33,7 +30,7 @@ const Services = () => {
             learn.
           </p>
         </div>
-        <div className="mt-[48px] lg:mt-[78px]" id="block-2">
+        <div className="mt-[48px] lg:mt-[78px]">
           <h2 className="text-[24px] lg:text-[29.5px] text-headings font-semibold">
             Powerful tooling
           </h2>
