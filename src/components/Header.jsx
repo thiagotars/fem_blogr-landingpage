@@ -90,7 +90,7 @@ const Header = () => {
           <div>
             <img
               className="flex lg:hidden"
-              src={isOpen ? { iconClose } : { iconHamburger }}
+              src={isOpen ? iconClose : iconHamburger}
               alt="mobile menu"
             />
           </div>
