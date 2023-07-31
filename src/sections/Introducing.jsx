@@ -3,7 +3,7 @@ import editorDesktop from "../assets/illustration-editor-desktop.svg";
 
 const Introducing = () => {
   return (
-    <section className="pt-[120px] pb-[70px] px-6 lg:px-0 lg:py-0 flex flex-col lg:flex-row relative min-h-[1020px] items-center font-overpass">
+    <section className="pt-[120px] pb-[80px] px-6 lg:px-0 lg:py-0 flex flex-col lg:flex-row relative min-h-[1020px] items-center font-overpass">
       <h2 className="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 top-[100px] xl:top-[120px] 2xl:top-[150px] text-[26px] text-center lg:text-[37.5px] text-headings font-semibold">
         Designed for the future
       </h2>
@@ -25,7 +25,10 @@ const Introducing = () => {
         id="text-block"
         className="flex flex-col mt-8 lg:mt-0 lg:pl-[160px] w-[90%] lg:w-[50%] text-center lg:text-left"
       >
-        <div id="block-1" className="flex flex-col">
+        <div
+          id="block-1"
+          className="flex flex-col mt-6 lg:max-w-[600px] lg:mt-0"
+        >
           <h2 className="text-[24px] xl:text-[29.5px] text-headings font-semibold">
             Introducing an extensible editor
           </h2>
@@ -38,7 +41,10 @@ const Introducing = () => {
             blog.
           </p>
         </div>
-        <div className="lg:mt-[64px] mt-[34px] xl:mt-[80px]" id="block-2">
+        <div
+          className="lg:mt-[64px] mt-[34px] xl:mt-[80px] lg:max-w-[600px]"
+          id="block-2"
+        >
           <h2 className="text-[24px] xl:text-[29.5px] text-headings font-semibold">
             Robust content management
           </h2>
